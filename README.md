@@ -90,6 +90,16 @@ Load key database (please note that function does not clear the internal databas
 ```cl
 (rsa-load-db "rsa.db")
 ```
+
+Added utility function 'encrypt-file' and 'decrypt-file':
+
+```cl
+
+(encrypt-file "me.rsa-key" "infile" "infile.rsa")
+
+(decrypt-file "me.rsa-key" "infile.rsa" "infile,2")
+```
+	
 Bonus
 -----
 
