@@ -72,13 +72,13 @@ Find a key by name:
 Load a key into the db:
 
 ```cl
-(rsa-load-key "me.rsa")
+(rsa-load-key "me.rsa-key")
 ```
 
 Save a key to a file:
 
 ```cl
-(rsa-save-key *key* "me.rsa")
+(rsa-save-key *key* "me.rsa-key")
 ```
 
 Save key database
