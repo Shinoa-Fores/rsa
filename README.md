@@ -106,19 +106,6 @@ Bonus
 You will also find a fast, self contained impmentation of the Miller
 Rabkin primality test.
 
-TODO
-----
-
-- [X] save/load key db to/from file
-
-- [X] save encrypted message to a file 
-
-- [X] load and decrypt a message from a file 
-
-- make ASDF installable
-
-- get into quicklisp
-
 --
 Burton Samograd
 burton.samograd@gmail.com
