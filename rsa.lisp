@@ -185,7 +185,7 @@ if no inverse exists."
 
 (defvar *rsa-key-db* (make-hash-table :test #'equal))
 
-(defun rsa-gen-key (name &optional (length 2048))
+(defun rsa-gen-key (name &optional (length 4096))
   "generate n, e and d for use with make-rsa-keys"
     (let* ((length/2 (/ length 2))
 	   (p (gen-prime length/2))
